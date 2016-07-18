@@ -1,0 +1,1 @@
+Sage 300 Web SDK Version: ** aug-2016 ** 
