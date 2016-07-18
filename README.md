@@ -130,7 +130,7 @@ in-progress contents of the SDK that is being worked on for the next release.
 Sage collaborators are pushing changes and potentially merging anonymous user pull-requests 
 for the next version of the SDK.
  
-> ** Only Sage collaborators can make changes to this branch **
+> **Only Sage collaborators can make changes to this branch**
 
 This is the branch to be accessed based upon the question “Get me the in-progress 
 version of the SDK that is not ready for release, but is to be released with the 
@@ -144,19 +144,19 @@ of the SDK.
 This is the branch to be accessed based upon the question “Get me the current version 
 of the SDK”.
 
-> ** Sage collaborators may push changes to this branch in response to defects or 
+> **Sage collaborators may push changes to this branch in response to defects or 
 issues either discovered internally or externally. Any changes to this branch 
-are also made in the develop branch **
+are also made in the develop branch**
 
-> ** Only Sage collaborators can make changes to this branch **
+> **Only Sage collaborators can make changes to this branch**
 
 ### Release Branches
 
-The release branches (i.e. **release-aug-2016**, **release-dec-2016**, etc.) contains 
+The release branches (i.e. **release-2017**, **release-2017.1**, etc.) contains 
 the contents for that particular release/version of the SDK.
  
 When the next version of the SDK is released, the **master** branch is copied into, 
-for example, the **release-dec-2017** branch, the **develop** branch is copied to 
+for example, the **release-2017** branch, the **develop** branch is copied to 
 **master** and the **develop** branch then becomes the basis for the next release.
 
 develop --> master --> release-…
@@ -165,10 +165,10 @@ There is only one in-progress version branch: **develop**
 
 There is only one current version branch: **master**
 
-There are to be numerous version branches: **release-aug-2016**, **release-dec-2016**, 
-**release-apr-2017**, etc.
+There are to be numerous version branches: **release-2017**, **release-2017.1**, 
+**release-2017.2**, etc.
 
-> ** Only Sage collaborators can make changes to these branches **
+> **Only Sage collaborators can make changes to these branches**
 
 ## Approval Timeline
 
@@ -218,6 +218,7 @@ The following steps illustrate how to install the package:
 * The package must first be built as demonstrated in the prior section
 * Locate the **Sage300UIWizardPackage.vsix** file and run this file
 * Select **Yes** to install the plug-in
+
 > **If the package is already installed, it must be uninstalled first**
 
 ### How to Uninstall the Sage 300 UI Wizard Package
@@ -232,7 +233,7 @@ The following steps illustrate how to uninstall the package from Visual Studio:
 * Select **Yes** to re-start Visual Studio
 * The package has been uninstalled
 
-> ** This step is only required if the package is installed **
+> **This step is only required if the package is installed**
 
 ### How to Run the Sage 300 UI Wizard Package in Debug Mode
 
