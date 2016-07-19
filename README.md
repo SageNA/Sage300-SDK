@@ -25,13 +25,13 @@ to do so in a way that not only addresses their needs, but potentially the needs
 With this participation, Sage hopes to have a couple of outcomes:
 
 * Engagement and Excitement
---* Get ISVs and Partners involved by allowing an ownership stake
---*	Generate excitement not only for themselves, but as an example for others to participate and 
+  * Get ISVs and Partners involved by allowing an ownership stake
+  *	Generate excitement not only for themselves, but as an example for others to participate and 
 contribute as well
---*	The community can make the SDK more robust
+  *	The community can make the SDK more robust
 *	Faster Pace to Improve/Enhance/Extend the SDK
---*	Everyone benefits (Sage too!)
---*	The SDK potentially gets uncompleted sections and areas to be completed
+  *	Everyone benefits (Sage too!)
+  *	The SDK potentially gets uncompleted sections and areas to be completed
 
 ## Folders and Contents
 
@@ -240,20 +240,20 @@ The following steps illustrate how to uninstall the package from Visual Studio:
 The following steps illustrate how to run the package in debug mode from within Visual Studio:
 
 * Load the **Sage300MenuExtension** solution
---*	This a solution which contains both wizard projects and other information to allow 
+  *	This a solution which contains both wizard projects and other information to allow 
 the Visual Studio plug-in to be debugged
 * Right-Click on the **Sage300MenuExtension** project in order to display the 
 properties page for this project
 * Select the **Debug** Tab to display the properties for debugging
 * In the **Start Action** section, select the **Start external program** option and enter 
 the following information into the textbox: 
---*	C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe
+  *	C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe
 
 > Location and version of **devenv.exe** may be different than what is specified above 
 based upon Version of Visual Studio and installation location
 
 * In the **Start Options** section, enter the following information into the **Command line arguments** textbox:
---*	/rootsuffix Exp
+  *	/rootsuffix Exp
 * Run the solution to start debugging!
 
 ## License
